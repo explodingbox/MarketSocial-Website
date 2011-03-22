@@ -1,0 +1,193 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: 0 !important;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  margin: 20px 0px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+h2 {
+  font-size: 32px;
+  margin: 10px 0px;
+}
+h3 {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+p {
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+  padding: 0 0.2em;
+}
+.highlighted {
+  background-color: #FFF10B;
+  background-color: rgba(255, 241, 11, 0.5);
+}
+ul, ol {
+  margin: 20px 0px;
+}
+ul li, ol li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+ol li {
+  list-style-type: decimal;
+}
+html {
+  color: #19293d;
+  background: url('/images/el_grido.png');
+  background-position: center 0;
+  font-family: 'Lucida Grande', 'verdana';
+}
+body {
+  width: 800px;
+  margin: 0px auto;
+  line-height: 1.7;
+  font-size: 12px;
+  overflow-x: hidden;
+}
+#marketsocial_header {
+  margin-top: 20px;
+  position: relative;
+  border-bottom: 1px solid #19293d;
+  height: 59px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+h1#logo {
+  width: 250px;
+  height: 35px;
+  text-indent: -9999px;
+  background: url('/images/marketsocial.png');
+  margin-top: 15px;
+}
+#main_menu {
+  position: absolute;
+  right: 0px;
+  top: 22px;
+  font-size: 16px;
+}
+#main_menu a {
+  text-decoration: none;
+  color: #6aa0c1;
+  float: left;
+  padding: 0px 10px;
+}
+#main_menu a.active {
+  color: #19293d;
+  font-weight: bold;
+}
+#main_menu a:hover {
+  text-decoration: underline;
+}
