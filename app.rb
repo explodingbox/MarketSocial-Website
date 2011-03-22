@@ -13,4 +13,17 @@ class App < Sinatra::Base
     mustache :index
   end
   
+  get '/about' do
+    mustache :index
+  end
+  
+  get '/apps/blue' do
+    mustache :blue_about
+  end
+  
+  
+  get '/contact' do
+    mustache :contact
+  end
+  
 end
