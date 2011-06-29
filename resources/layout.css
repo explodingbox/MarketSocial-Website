@@ -1,11 +1,12 @@
-#page{width:90%;margin:0 auto;max-width:950px;}
+
+#page{width:90%;margin:0 auto;max-width:950px;background-color:#fff;padding:0 5%;}
 .section{clear:both;border-bottom:1px solid #eee;padding-bottom:2em;position:relative;}
 .section_title{padding-top:1em;}
 .figure{margin-bottom:1em;}.figure img{max-width:100%;}
 .inline_figure img{max-width:100%;}
 #intro{padding-top:3em;padding-bottom:1em;overflow:hidden;}#intro #quick_menu{float:right;margin-top:1em;width:20%;text-align:right;}
 #intro h1{float:left;width:80%;}
-#intro h2{text-align:center;}
+#intro h2{text-align:center;margin-bottom:1em;}#intro h2 strong{color:#333B8C;}
 #intro h3{width:100%;}
 #intro #intro_figure{text-align:center;clear:both;}
 #intro #intro_copy{width:66.7%;float:left;overflow:hidden;margin-bottom:1px solid red;}#intro #intro_copy .inline_figure{float:left;margin:0 0.5em 0em 0;width:4em;overflow:hidden;}
