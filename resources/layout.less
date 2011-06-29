@@ -1,7 +1,20 @@
+
+
 #page {
   width: 90%;
   margin: 0 auto;
   max-width: 950px;
+}
+
+.section {
+  clear: both;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.section_title {
+  padding-top: 1em;
 }
 
 .figure {
@@ -11,6 +24,175 @@
   }
 }
 
+.inline_figure {
+  img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
 #intro {
   padding-top: 3em;
+  padding-bottom: 1em;
+  overflow: hidden;
+  
+  #quick_menu {
+    float: right;
+    margin-top: 1em;
+    width: 20%;
+    text-align: right;
+  }
+  
+  h1 {
+    float: left;
+    width: 80%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    width: 100%;
+  }
+
+  #intro_figure {
+    text-align: center;
+    clear: both;
+  }
+
+  #intro_copy {
+    width: 66.7%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 1px solid red;      
+      
+    .inline_figure {
+      float: left;
+      margin: 0 0.5em 0em 0;
+      width: 4em;
+      overflow: hidden;
+    }
+  
+    p {
+      padding-right: 10%;
+      clear: both;
+    }
+    
+  }
+
+  #intro_points {
+    overflow: hidden;
+  }
+
 }
+
+//Big Screen
+
+@media screen and (min-width: 800px) {
+  #intro {
+    #intro_copy {
+      .copy{
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+      }
+    }
+  }
+}
+
+//Small Screen
+
+@media screen and (max-width: 500px) {
+  #intro {
+    h1 {
+      width: 50%;
+    }
+    #quick_menu {
+      width: 50%;
+    }
+    #intro_copy {
+      width: auto;
+      float: none;
+      p {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+#app_gallery {
+  display: none;
+}
+
+
+
+
+#pricing_details {
+  overflow: hidden;
+  
+  #prices {
+    float: left;
+    width: 28%;
+  }
+  
+  #pricing_copy {
+    float: right;
+    width: 66.66%;
+  }
+  
+  
+}
+
+//Big Screen
+
+@media screen and (min-width: 800px) {
+  #pricing_details {
+     #pricing_copy {
+       p {
+         margin-right: 2em;
+       }
+       -webkit-column-count: 2;
+       -webkit-column-gap: 0;
+     }
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  #pricing_details {
+    #prices, #pricing_copy {
+      float: none;
+      width: auto;
+    }
+
+    
+    
+  }  
+  
+  
+}
+
+
+
+
+
+
+
+#how_to {
+  display: none;
+}
+
+
+
+

@@ -5,9 +5,26 @@ h1{font-size:200%;line-height:1.4;padding-bottom:0.5em;}
 h2{font-size:150%;line-height:1.4;}
 h3{font-size:120%;font-weight:bold;}
 p{padding-bottom:1em;line-height:1.5;}
-li{padding-bottom:1em;}
+li{padding-bottom:1em;line-height:1.5;}
 em{text-style:italic;}
 strong{font-weight:bold;}
+a{color:#000;}
+::selection{background:#FFF200;color:#443600;}
+::-moz-selection{background:#FFF200;color:#443600;}
 #page{width:90%;margin:0 auto;max-width:950px;}
+.section{clear:both;border-bottom:1px solid #eee;padding-bottom:2em;position:relative;}
+.section_title{padding-top:1em;}
 .figure{margin-bottom:1em;}.figure img{max-width:100%;}
-#intro{padding-top:3em;}
+.inline_figure img{max-width:100%;}
+#intro{padding-top:3em;padding-bottom:1em;overflow:hidden;}#intro #quick_menu{float:right;margin-top:1em;width:20%;text-align:right;}
+#intro h1{float:left;width:80%;}
+#intro h2{text-align:center;}
+#intro h3{width:100%;}
+#intro #intro_figure{text-align:center;clear:both;}
+#intro #intro_copy{width:66.7%;float:left;overflow:hidden;margin-bottom:1px solid red;}#intro #intro_copy .inline_figure{float:left;margin:0 0.5em 0em 0;width:4em;overflow:hidden;}
+#intro #intro_copy p{padding-right:10%;clear:both;}
+#intro #intro_points{overflow:hidden;}
+@media screen and (min-width: 800px){#intro #intro_copy .copy{-webkit-column-count:2;-moz-column-count:2;}}@media screen and (max-width: 500px){#intro h1{width:50%;} #intro #quick_menu{width:50%;} #intro #intro_copy{width:auto;float:none;}#intro #intro_copy p{padding-right:0;}}#app_gallery{display:none;}
+#pricing_details{overflow:hidden;}#pricing_details #prices{float:left;width:28%;}
+#pricing_details #pricing_copy{float:right;width:66.66%;}
+@media screen and (min-width: 800px){#pricing_details #pricing_copy{-webkit-column-count:2;-webkit-column-gap:0;}#pricing_details #pricing_copy p{margin-right:2em;}}@media screen and (max-width: 500px){#pricing_details #prices,#pricing_details #pricing_copy{float:none;width:auto;}}#how_to{display:none;}
