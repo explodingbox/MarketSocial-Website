@@ -6,7 +6,7 @@ body {
   width: 90%;
   margin: 0 auto;
   max-width: 950px;
-  background-color: #fff;
+  //background-color: #fff;
   padding: 0 5%;
   //-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
@@ -45,11 +45,29 @@ body {
   padding-bottom: 1em;
   overflow: hidden;
   
+  #header {
+    border-bottom: 1px dashed #333B8C;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+  
   #quick_menu {
     float: right;
     margin-top: 1em;
     width: 20%;
     text-align: right;
+    
+    #btn_register_free {
+      float: right;
+      width: 137px;
+      height: 35px;
+      background-image: url('register-free.png');
+      text-indent: -9999px;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
   }
   
   h1 {
@@ -83,8 +101,8 @@ body {
       
     .inline_figure {
       float: left;
-      margin: 0 0.5em 0em 0;
-      width: 4em;
+      margin-right: 0.5em;
+      width: 5em;
       overflow: hidden;
     }
   
@@ -97,6 +115,15 @@ body {
 
   #intro_points {
     overflow: hidden;
+    li {
+      background-image: url('tick.png');
+      background-repeat: no-repeat;
+      background-position: top left;
+      padding-left: 33px;
+      padding-top: 5px;
+      padding-bottom: 0.5em;
+    }
+    
   }
 
 }
@@ -158,6 +185,10 @@ body {
   #pricing_copy {
     float: right;
     width: 66.66%;
+  }
+  
+  #add_time {
+    text-align: center;
   }
   
   

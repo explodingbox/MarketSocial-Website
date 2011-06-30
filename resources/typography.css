@@ -1,7 +1,7 @@
 html{font-family:"helvetica-neue",'helvetica','arial';font-size:100%;line-height:1.4;color:#2D3143;}
 h1,h2,h3,h4{padding-bottom:1em;}
 h1{font-size:200%;line-height:1.4;padding-bottom:0.5em;}
-h2{font-size:150%;line-height:1.4;}
+h2{font-size:150%;line-height:1.4;text-align:center;}
 h3{font-size:120%;font-weight:bold;}
 p{padding-bottom:1em;line-height:1.5;}
 li{padding-bottom:1em;line-height:1.5;}
